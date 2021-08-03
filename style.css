@@ -1,0 +1,38 @@
+
+body{
+    background-color: gold;
+
+}
+.main{
+ display: flex;
+ flex-wrap: wrap;
+ background-color: hotpink;
+ justify-content: space-between;
+}
+h1{
+    background-color: aqua;
+    display: flex;
+    flex-grow: 10;
+    position: absolute;
+    top:4%;
+    left:50%;
+    transform: translate(-50%,-50%);
+
+}
+.subclass{
+border:brown;
+  background-color: cornsilk;
+  margin-left: 50px;
+    padding-left: 50px;
+    opacity:0.5;
+   
+  width: 300px;
+ 
+}
+.subclass:hover{
+
+  transform: scale(1.2);
+  opacity: 1;
+}
+
+
